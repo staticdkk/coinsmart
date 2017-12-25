@@ -1,0 +1,125 @@
+#icon-message {
+	position: relative;
+	overflow: hidden;
+	height: 50px;
+}
+#icon-message:hover a{
+	background-color: #2b3643;
+}
+#icon-message a i {
+	font-size: 175%; 
+	color: white;
+	opacity: 0.9;
+	margin-top: 5px;
+}
+#icon-message > p {
+	position: absolute;
+    background-color: red;
+    padding: 1px 3px;
+    color: white;
+    top: -12px;
+    right: 10px;
+    font-size: 80%;
+    display: none;
+}
+
+
+
+
+#box-message {
+	z-index: 10;
+	height: 400px;
+	width: 100%;
+	border: 1px solid lightgray;
+	background-color: white;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+#box-message > div {
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+#box-message > .box-title {
+	height: 30px;
+	background-color: #2b3643;
+	color: white;
+	opacity: 0.9;
+	line-height: 30px;
+}
+#box-message > .box-title > i {
+	color: white;
+	font-size: 150%;
+	float: right;
+	margin: 7px 0px;
+	cursor: pointer;
+}
+
+#box-message > .box-content {
+	height: 275px;
+	width: 100%;
+	overflow-y: scroll; 
+}
+#box-message > .box-content > p > img {
+	width: 84%;
+    float: right;
+    margin: 5px 8% 20px;
+}
+#box-message > .box-content span.username {
+	font-weight: bold;
+	margin-right: 10px;
+}
+#box-message > .box-content span.tag {
+	color: blue;
+}
+#box-message > .box-content span.fa-smile-o {
+	color: orange;
+	font-size: 135%;
+}
+#box-message > .box-content span.fa-thumbs-up {
+	color: rgb(64, 128, 255)!important;
+}
+#box-message > .box-content span.fa-thumbs-down {
+	color: rgb(64, 128, 255)!important;
+}
+#box-message > .box-content span.fa-heart {
+	color: deeppink!important;
+}
+#box-message > .box-content span.large {
+	font-size: 230%!important;
+}
+
+
+
+#box-message > .box-input {
+	border-top: 1px solid lightgray;
+	height: 80px;
+}
+#box-message > .box-input form {
+	display: none;
+}
+#box-message > .box-input textarea {
+	border: none;
+	outline: none;
+    opacity: 0.9;
+    width: 100%;
+    overflow: auto;     
+    margin: 5px 10px 0px 0;
+}
+#box-message > .box-input > div  i.fa {
+	display: block;
+	float: left;
+	font-size: 150%;
+	margin: 0 10px;
+	opacity: 0.8;
+	cursor: pointer;
+	color: black;
+}
+#box-message > .box-input > div > i.fa:hover {
+	opacity: 0.6;
+}
+#box-message > .box-input > div > i.thumbs {
+	color: rgb(64, 128, 255)!important;
+}
+#box-message > .box-input > div > i.fa-heart {
+	color: deeppink!important;
+}
